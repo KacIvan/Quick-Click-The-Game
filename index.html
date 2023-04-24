@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Quick Click</title>
+</head>
+
+<body>
+  <div class="screen">
+    <h1 class="anim-title">Quick Click</h1>
+    <a href="#" class="start" id="start">Начать игру</a>
+    <div class="help">
+      <p><span class="primary-help">Правила игры:</span> выбирай время раунда и быстро закликай как можно больше целей!</p>
+    </div>
+  </div>
+
+  <div class="screen">
+    <h1>Выберите время</h1>
+    <ul class="time-list" id="time-list">
+      <li>
+        <button class="time-btn" data-time="15">
+          15 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="30">
+          30 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="45">
+          45 сек
+        </button>
+      </li>
+      <li>
+        <button class="time-btn" data-time="59">
+          1 мин
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen">
+    <h3><svg style="color: white" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 15 15" width="30"
+        height="30" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        <path d="m11.75 1.75 2.5 2m-10-2-2.5 2m10.5 9.5 1 1m-9.5-1-1 1m5.5-7.5v2.5l-1.5 1" fill="white"></path>
+        <circle cx="8" cy="9" r="5.25"></circle>
+      </svg> <span id="time">00:00</span></h3>
+    <div class="board" id="board"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

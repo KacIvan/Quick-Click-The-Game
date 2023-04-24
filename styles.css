@@ -156,7 +156,7 @@ a:active {
   box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
   border-radius: 30px;
   overflow: hidden;
-  cursor: url('assets/cursor-go.png'), pointer;
+  cursor: url('assets/cursor-go.png'), default;
 }
 
 .circle {

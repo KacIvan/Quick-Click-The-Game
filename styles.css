@@ -172,4 +172,5 @@ a:active {
 
 .circle:active {
   border: 2px solid white;
+  cursor: url('assets/cursor-stop2.png'), pointer;
 }
